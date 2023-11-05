@@ -15,7 +15,7 @@ scikit-learn==1.0.2
 scikit-image==0.19.3
 einops==0.6.1
 h5py==3.8.0
-torch==1.12.1+cu113
+torch==1.13.1
 torchvision==0.13.1+cu113
 timm==0.6.5
 ftfy==6.1.1
