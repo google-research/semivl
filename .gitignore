@@ -1,0 +1,7 @@
+__pycache__/
+pretrained/
+exp/
+configs/generated/
+jobs/
+visualization/plots/
+*log.txt
