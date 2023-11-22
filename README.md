@@ -69,9 +69,9 @@ If you want to also want to run the UniMatch ResNet101 baseline, please follow [
 
 Please, download the following datasets:
 
-- Pascal VOC12: [JPEGImages](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) | [SegmentationClass](https://drive.google.com/file/d/1ikrDlsai5QSf2GiSUR3f8PZUzyTubcuF/view?usp=sharing)
-- Cityscapes: [leftImg8bit](https://www.cityscapes-dataset.com/file-handling/?packageID=3) | [gtFine](https://drive.google.com/file/d/1E_27g9tuHm6baBqcA7jct_jqcGA89QPm/view?usp=sharing)
-- COCO: [train2017](http://images.cocodataset.org/zips/train2017.zip) | [val2017](http://images.cocodataset.org/zips/val2017.zip) | [masks](https://drive.google.com/file/d/166xLerzEEIbU7Mt1UGut-3-VN41FMUb1/view?usp=sharing)
+- Pascal VOC12: [JPEGImages](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) | [SegmentationClass](https://github.com/google-research/semivl/releases/download/checkpoints/ground_truth_voc.zip)
+- Cityscapes: [leftImg8bit](https://www.cityscapes-dataset.com/file-handling/?packageID=3) | [gtFine](https://github.com/google-research/semivl/releases/download/checkpoints/ground_truth_cityscapes.zip)
+- COCO: [train2017](http://images.cocodataset.org/zips/train2017.zip) | [val2017](http://images.cocodataset.org/zips/val2017.zip) | [masks](https://github.com/google-research/semivl/releases/download/checkpoints/ground_truth_coco.zip)
 - ADE20K: [ADEChallengeData2016](http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip)
 
 Please, extract the datasets to the following folder structure:
@@ -93,7 +93,7 @@ $HOME/data/
     └── annotations
 ```
 
-Note: The ground truth of VOC12, Cityscapes, and COCO have been preprocessed by [UniMatch](https://github.com/LiheYoung/UniMatch).
+Note: The ground truth of VOC12, Cityscapes, and COCO were preprocessed by [UniMatch](https://github.com/LiheYoung/UniMatch).
 
 ## Training
 
@@ -112,7 +112,7 @@ The training log, tensorboard, checkpoints, and debug images are stored in `exp/
 
 ## Checkpoints
 
-We provide SemiVL's checkpoints, logs, tensorboards, and predictions in the following [GitHub Release](TODO).
+We provide SemiVL's checkpoints, logs, tensorboards, and predictions in the following [GitHub Release](https://github.com/google-research/semivl/releases/tag/checkpoints).
 
 ## Evaluation
 
