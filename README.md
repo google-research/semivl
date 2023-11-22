@@ -21,6 +21,10 @@ We evaluate SemiVL on 4 semantic segmentation datasets (Pascal VOC, COCO, ADE20K
 
 <img src="docs/voc_sota_plot_2.png" width="500">
 
+The improvements are also qualitatively reflected in the example predictions, where SemiVL better distinguishes classes with similar visual appearance. Please note that SemiVL was trained in these examples with only 92 labeled images on Pascal VOC and with only 158 labeled images on ADE20K.
+
+![Demo](docs/semivl_demo.gif)
+
 If you find SemiVL useful in your research, please consider citing:
 
 ```
