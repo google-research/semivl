@@ -1,4 +1,4 @@
-# SemiVL: Semi-Supervised Semantic Segmentation with Vision-LanguageGuidance
+# SemiVL: Semi-Supervised Semantic Segmentation with Vision-Language Guidance
 
 **by
 [Lukas Hoyer](https://lhoyer.github.io/),
@@ -29,7 +29,7 @@ If you find SemiVL useful in your research, please consider citing:
 
 ```
 @article{hoyer2023semivl,
-  title={{SemiVL}: Semi-Supervised Semantic Segmentation withVision-Language Guidance},
+  title={{SemiVL}: Semi-Supervised Semantic Segmentation with Vision-Language Guidance},
   author={Hoyer, Lukas and Tan, David Joseph and Naeem, Muhammad Ferjad and Van Gool, Luc and Tombari, Federico},
   journal={arXiv preprint arXiv:TODO},
   year={2023}
@@ -125,7 +125,7 @@ python -m third_party.unimatch.eval \
     --pred-path PREDICTION_OUTPUT_PATH
 ```
 
-the corresponding prediction will be saved to `PREDICTION_OUTPUT_PATH` and the evaluation metrics will be printed in the terminal.
+The corresponding prediction will be saved to `PREDICTION_OUTPUT_PATH` and the evaluation metrics will be printed in the terminal.
 
 ## Framework Structure
 
