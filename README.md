@@ -7,9 +7,10 @@
 [Luc Van Gool](https://scholar.google.de/citations?user=TwMib_QAAAAJ&hl=en),
 and [Federico Tombari](https://federicotombari.github.io/)**
 
-TODO: Arxiv Link
-
 *This is not an officially supported Google product.*
+
+**[[Arxiv]](https://arxiv.org/abs/2311.16241) [[Paper]](https://arxiv.org/pdf/2311.16241.pdf)**
+
 
 ## Overview
 
@@ -31,7 +32,7 @@ If you find SemiVL useful in your research, please consider citing:
 @article{hoyer2023semivl,
   title={{SemiVL}: Semi-Supervised Semantic Segmentation with Vision-Language Guidance},
   author={Hoyer, Lukas and Tan, David Joseph and Naeem, Muhammad Ferjad and Van Gool, Luc and Tombari, Federico},
-  journal={arXiv preprint arXiv:TODO},
+  journal={arXiv preprint arXiv:2311.16241},
   year={2023}
 }
 ```
