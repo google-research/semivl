@@ -4,7 +4,7 @@ matplotlib
 notebook
 pyyaml>=5.4.0
 easydict==1.10
-pillow==9.5.0
+pillow==10.3.0
 numpy==1.21.6
 TensorBoardX==2.6
 tensorboard==2.11.2
