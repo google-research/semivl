@@ -11,7 +11,7 @@ tensorboard==2.11.2
 setuptools==59.5.0
 opencv-python==4.6.0.66
 scipy==1.7.3
-scikit-learn==1.0.2
+scikit-learn==1.5.0
 scikit-image==0.19.3
 einops==0.6.1
 h5py==3.8.0
