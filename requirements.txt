@@ -18,7 +18,7 @@ h5py==3.8.0
 # The experiments in the paper were conducted with torch==1.12.1+cu113, torchvision==0.13.1+cu113,
 # and a locally built mmcv-full=1.4.4 with cuda 11.8.r11.8 and gcc 11.3.0.
 # In favor of an easier installation, we downgraded torch to a version with a pre-built mmcv-full.
-torch==1.10.1+cu113
+torch==2.2.0
 torchvision==0.11.2+cu113
 mmcv-full==1.4.4
 mmsegmentation==0.24.0
