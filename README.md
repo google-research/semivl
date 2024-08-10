@@ -9,8 +9,9 @@ and [Federico Tombari](https://federicotombari.github.io/)**
 
 *This is not an officially supported Google product.*
 
-**[[Arxiv]](https://arxiv.org/abs/2311.16241) [[Paper]](https://arxiv.org/pdf/2311.16241.pdf)**
+:bell: **News:** We are happy to announce that SemiVL was accepted at **ECCV24**!
 
+**[[Arxiv]](https://arxiv.org/abs/2311.16241) [[Paper]](https://arxiv.org/pdf/2311.16241.pdf)**
 
 ## Overview
 
@@ -29,11 +30,11 @@ The improvements are also qualitatively reflected in the example predictions, wh
 If you find SemiVL useful in your research, please consider citing:
 
 ```
-@article{hoyer2023semivl,
+@inproceedings{hoyer2024semivl,
   title={{SemiVL}: Semi-Supervised Semantic Segmentation with Vision-Language Guidance},
   author={Hoyer, Lukas and Tan, David Joseph and Naeem, Muhammad Ferjad and Van Gool, Luc and Tombari, Federico},
-  journal={arXiv preprint arXiv:2311.16241},
-  year={2023}
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2024}
 }
 ```
 
